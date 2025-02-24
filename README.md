@@ -5,6 +5,14 @@ This repository contains four distinct vehicle dynamics models, each with increa
 
 The last model is a closed-loop system that can simulate different sets of drive cycles for consumption and range estimation. All models use the same parametrization script: [setVehicleParam.m](functions/setVehicleParam.m).
 
+## Learning Objectives
+By exploring this repository, students will achieve the following learning objectives:
+1. Understand the fundamental equation of longitudinal dynamics and its components (vehicle resistances).
+2. Understand how the available torque impacts the maximum vehicle speed.
+3. Understand how inertia, mass, and drag factor impact the maximum vehicle speed and the vehicle resistances.
+4. Understand how electric machine characteristics and transmission affect the maximum vehicle speed.
+5. Understand how to simulate a drive cycle and how different resistances impact overall consumption.
+
 ## The Fundamental Equation of Longitudinal Dynamics
 The fundamental equation of the longitudinal dynamics is: 
 
