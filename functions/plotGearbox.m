@@ -28,7 +28,7 @@ simOutRatio = sim(modelName);
 
 %% 3) Plot maximum vehicle speed
 % Plot speed comparison with the two different gearbox ratio
-figure('Units','centimeters','Position',[0,0,23.64,13.05],'Color','w'); hold on; grid on;
+figure('Units','centimeters','Position',[0,0,29.92,12.91],'Color','w'); hold on; grid on;
 plot(simOutDef.simlog.Vehicle.V.series.time/60,simOutDef.simlog.Vehicle.V.series.values('m/s')*3.6,...
      'LineWidth',2,'Color','b','DisplayName','i = 7');
 

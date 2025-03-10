@@ -24,7 +24,7 @@ wheelInertia = wheelInertia*2;
 simOutInert = sim(modelName);
 
 % Plot results
-figure('Units','centimeters','Position',[0,0,23.64,13.05],'Color','w'); hold on; grid on;
+figure('Units','centimeters','Position',[0,0,29.92,12.91],'Color','w'); hold on; grid on;
 plot(simOutDef.simlog.Vehicle.V.series.time/60,simOutDef.simlog.Vehicle.V.series.values('m/s')*3.6,...
      'LineWidth',2,'Color','b','DisplayName','Wheel Inertia = 1 kgm^2');
 
@@ -46,7 +46,7 @@ vehicleMass = vehicleMass+100;
 simOutMass = sim(modelName);
 
 % Plot results
-figure('Units','centimeters','Position',[0,0,23.64,13.05],'Color','w'); hold on; grid on;
+figure('Units','centimeters','Position',[0,0,29.92,12.91],'Color','w'); hold on; grid on;
 plot(simOutDef.simlog.Vehicle.V.series.time/60,simOutDef.simlog.Vehicle.V.series.values('m/s')*3.6,...
      'LineWidth',2,'Color','b','DisplayName','Vehicle Mass = 1500');
 
@@ -68,7 +68,7 @@ vehicleCD = vehicleCD*1.5;
 simOutCD  = sim(modelName);
 
 % Plot results
-fig = figure('Units','centimeters','Position',[0,0,23.64,13.05],'Color','w'); hold on; grid on;
+fig = figure('Units','centimeters','Position',[0,0,29.92,12.91],'Color','w'); hold on; grid on;
 plot(simOutDef.simlog.Vehicle.V.series.time/60,simOutDef.simlog.Vehicle.V.series.values('m/s')*3.6,...
      'LineWidth',2,'Color','b','DisplayName','c_D = 0.23');
 
