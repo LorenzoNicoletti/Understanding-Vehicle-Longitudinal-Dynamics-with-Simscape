@@ -77,7 +77,7 @@ As a closed loop system, this model can simulate entire drive cycles such as the
 
 ![Comparison Cycles](images/IMAGEDC.png)
 
-## Visuals
+## Visuals: 
 All plots shown in these readme can be created with the dedicated function linked in each Simulink model
 
 ## Installation
